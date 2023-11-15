@@ -1,0 +1,5 @@
+tests\AppiumService.class
+tests\AppiumService$1.class
+tests\ChildClass.class
+pages\LoginPage.class
+tests\BaseClass.class
