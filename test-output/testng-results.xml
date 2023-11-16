@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T09:46:29 IST" name="Default suite" finished-at="2023-11-16T09:47:27 IST" duration-ms="57587">
+  <suite started-at="2023-11-16T09:57:26 IST" name="Default suite" finished-at="2023-11-16T09:58:19 IST" duration-ms="53402">
     <groups>
     </groups>
-    <test started-at="2023-11-16T09:46:29 IST" name="Default test" finished-at="2023-11-16T09:47:27 IST" duration-ms="57587">
+    <test started-at="2023-11-16T09:57:26 IST" name="Default test" finished-at="2023-11-16T09:58:19 IST" duration-ms="53402">
       <class name="tests.AppiumService">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AppiumService@413d1baf]" started-at="2023-11-16T09:46:29 IST" name="setup" finished-at="2023-11-16T09:47:05 IST" duration-ms="35239" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AppiumService@16eb3ea3]" started-at="2023-11-16T09:57:26 IST" name="setup" finished-at="2023-11-16T09:57:57 IST" duration-ms="31134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startTest()[pri:0, instance:tests.AppiumService@413d1baf]" started-at="2023-11-16T09:47:05 IST" name="startTest" finished-at="2023-11-16T09:47:05 IST" duration-ms="693" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:tests.AppiumService@16eb3ea3]" started-at="2023-11-16T09:57:57 IST" name="startTest" finished-at="2023-11-16T09:57:57 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="sample()[pri:0, instance:tests.AppiumService@413d1baf]" started-at="2023-11-16T09:47:05 IST" name="sample" finished-at="2023-11-16T09:47:13 IST" duration-ms="7287" status="PASS">
+        <test-method signature="sample()[pri:0, instance:tests.AppiumService@16eb3ea3]" started-at="2023-11-16T09:57:57 IST" name="sample" finished-at="2023-11-16T09:58:05 IST" duration-ms="7944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.AppiumService@413d1baf]" started-at="2023-11-16T09:47:13 IST" name="endTest" finished-at="2023-11-16T09:47:27 IST" duration-ms="14287" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.AppiumService@16eb3ea3]" started-at="2023-11-16T09:58:05 IST" name="endTest" finished-at="2023-11-16T09:58:19 IST" duration-ms="13954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AppiumService@413d1baf]" started-at="2023-11-16T09:47:27 IST" name="teardown" finished-at="2023-11-16T09:47:29 IST" duration-ms="2208" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AppiumService@16eb3ea3]" started-at="2023-11-16T09:58:19 IST" name="teardown" finished-at="2023-11-16T09:58:22 IST" duration-ms="2873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
