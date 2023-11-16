@@ -3,7 +3,7 @@
 <suite name = "Suite1" parallel = "none">
     <test name = "test1" preserve-order = "true">
         <classes>
-		  <class name="AppiumService"/>
+		  <class name="com.test.AppiumService"/>
 	   </classes>
     </test>
 </suite>
