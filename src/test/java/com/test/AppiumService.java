@@ -52,19 +52,19 @@ public class AppiumService {
     private static AppiumDriverLocalService service;
     private static ExtentReports report;
     private static ExtentTest test;
-    private static ExtentHtmlReporter reports;
+    private static ExtentHtmlReporter reporter;
    
     @BeforeClass
     public static void startTest() throws IOException
     {
     	  report = new ExtentReports();
-    	 reports=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReports\\reports.html");
+    	 reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReports\\reports.html");
     	 //reports.config().setChartVisibleOnOpen(true);
-    	 reports.config().setDocumentTitle("Extent Report Demo");
-    	 reports.config().setReportName("Automation Test Report");
+    	 reporter.config().setDocumentTitle("Extent Report Demo");
+    	 reporter.config().setReportName("Automation Test Report");
     	 //reports.config().setTestViewChartLocation("TOP");
-    	 reports.config().setTheme(Theme.STANDARD);
-    	 report.attachReporter(reports);
+    	 reporter.config().setTheme(Theme.STANDARD);
+    	 report.attachReporter(reporter);
     	
 
     }
@@ -148,7 +148,7 @@ public class AppiumService {
         File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
 
         // Save the screenshot to a desired location
-        String screenshotPath = System.getProperty("user.dir")+"\\Screenshots\\AttachScreenshot.png";
+        String screenshotPath = System.getProperty("user.dir")+"\\Screenshots\\AttachScreenshot.png"; 
         FileUtils.copyFile(srcFile, new File(screenshotPath));
         // Attach the screenshot to the Extent Report
         test.addScreenCaptureFromPath(screenshotPath);
@@ -163,7 +163,7 @@ public class AppiumService {
         }
        
        // sendEmail("ruchitha.d99@gmail.com", "Subject: Test Report", "Message body", screenshotPath);
-        sendEmail("ruchitha.d99@gmail.com", "Subject: Test Report", "Message body",reports);
+        sendEmail("ruchitha.d99@gmail.com", "Subject: Test Report", "Message body",reporter);
        
     }
 
